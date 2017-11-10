@@ -52,6 +52,12 @@ FOUNDATION_EXPORT const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingD
 @property (weak, nonatomic) UIButton *leftBarButtonItem;
 
 /**
+ *
+ * 增加了一根自定义的线条
+ */
+@property (weak, nonatomic) IBOutlet UIView *textViewLine;
+
+/**
  *  Specifies the width of the leftBarButtonItem.
  *
  *  @discussion This property modifies the width of the leftBarButtonContainerView.
